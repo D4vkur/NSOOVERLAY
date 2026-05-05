@@ -46,7 +46,7 @@ function drawStick(center, x, y, trail, color) {
   let py = center.y + y * radius;
 
   trail.push({ x: px, y: py });
-  if (trail.length > 80) trail.shift();
+  if (trail.length > 30) trail.shift();
 
   // Trail
   ctx.beginPath();
