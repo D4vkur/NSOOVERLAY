@@ -114,7 +114,7 @@ function update() {
 
   return { x, y };
 }
-  requestAnimationFrame(update);
+  setTimeout(update, 16); // ~60fps cap
 }
 
 update();
