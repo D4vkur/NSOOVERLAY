@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 700px;
+  height: 400px;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: drop-shadow(0 0 10px hotpink);
+}
+
+/* PANEL */
+.panel {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: rgba(255, 182, 193, 0.2);
+  border: 1px solid pink;
+  border-radius: 12px;
+  padding: 10px 16px;
+
+  color: #ff69b4;
+  font-size: 14px;
+  backdrop-filter: blur(6px);
+
+  text-align: center;
+  min-width: 200px;
+}
+
+.title {
+  font-weight: bold;
+  color: #ff1493;
+  margin-bottom: 5px;
+}

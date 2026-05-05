@@ -1,0 +1,6 @@
+1. open obs
+2. add browser source
+3. enable local file
+4. open browse and put overlay.html
+
+credit : @555kur (discord/TikTok) 
